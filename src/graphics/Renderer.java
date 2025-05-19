@@ -290,7 +290,7 @@ public class Renderer extends JPanel {
         if (showTitleScreen) {
             g.setColor(Color.WHITE);
             g.setFont(new Font("Arial", Font.BOLD, 48));
-            g.drawString("3D Cube Game", getWidth()/2 - 180, 100); // Title
+            g.drawString("Voxel Vault", getWidth()/2 - 130, 100); // Title
 
             // Move leaderboard higher up
             int leaderboardY = 410; // Was 470, now 390
